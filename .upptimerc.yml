@@ -1,14 +1,9 @@
-# Change these first
 owner: leesjensen # Your GitHub organization or username, where this repository lives
 repo: masteryls-status # The name of this repository
 
 sites:
   - name: MasteryLS
     url: https://masteryls.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
 
 assignees: # Users to assign downtime issues (optional)
   - leesjensen
@@ -18,7 +13,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.masteryls.com
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://masteryls.com/favicon.png
   name: MasteryLS Status
   introTitle: '**MasteryLS** The ultimate mastery learning platform.'
   introMessage: "MasteryLS is a platform that helps students learn and master subjects at their own pace. Our goal is to provide a personalized learning experience that adapts to each student's needs."
@@ -27,6 +22,3 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
