@@ -18,7 +18,9 @@ status-website:
   introTitle: '**MasteryLS** The ultimate mastery learning platform.'
   introMessage: "MasteryLS is a platform that helps students learn and master subjects at their own pace. Our goal is to provide a personalized learning experience that adapts to each student's needs."
   navbar:
+    - title: MasteryLS
+      href: https://masteryls.com
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/leesjensen/masteryls
